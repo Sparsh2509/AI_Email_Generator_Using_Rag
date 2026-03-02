@@ -1,0 +1,150 @@
+TYPE: Follow-Up
+TONE: Polite
+STYLE: Gentle Reminder
+
+Subject: Following Up on My Previous Email
+
+Dear [Recipient Name],
+
+I hope you are doing well. I wanted to kindly follow up on my previous message regarding [topic].
+
+I understand you have a busy schedule and truly appreciate your time.
+
+Looking forward to your response.
+
+Best regards,
+[Sender Name]
+
+----------------------------------------
+TYPE: Follow-Up
+TONE: Concise
+STYLE: Short Reminder
+
+Subject: Quick Follow-Up
+
+Hi [Recipient Name],
+
+Just checking in regarding my previous email. Please let me know if you had a chance to review it.
+
+Best,
+[Sender Name]
+
+----------------------------------------
+TYPE: Follow-Up
+TONE: Professional
+STYLE: Value Reinforcement
+
+Subject: Reconnecting Regarding [Topic]
+
+Dear [Recipient Name],
+
+I wanted to follow up and reiterate my interest in [topic]. I believe this could bring meaningful value to your team.
+
+Looking forward to your thoughts.
+
+Sincerely,
+[Sender Name]
+
+----------------------------------------
+TYPE: Follow-Up
+TONE: Polite
+STYLE: Meeting Request
+
+Subject: Following Up on Meeting Request
+
+Dear [Recipient Name],
+
+I’m writing to follow up on my earlier message regarding scheduling a brief meeting. Please let me know a convenient time for you.
+
+Best regards,
+[Sender Name]
+
+----------------------------------------
+TYPE: Follow-Up
+TONE: Respectful
+STYLE: Busy Acknowledgment
+
+Subject: Touching Base
+
+Hi [Recipient Name],
+
+I understand things can get busy. Just wanted to reconnect regarding my earlier message when you have a moment.
+
+Warm regards,
+[Sender Name]
+
+----------------------------------------
+TYPE: Follow-Up
+TONE: Professional
+STYLE: Second Follow-Up
+
+Subject: Following Up Again
+
+Dear [Recipient Name],
+
+I’m reaching out once more regarding my previous email. I remain very interested and would appreciate your response.
+
+Best,
+[Sender Name]
+
+----------------------------------------
+TYPE: Follow-Up
+TONE: Friendly
+STYLE: Casual Reminder
+
+Subject: Checking In
+
+Hi [Recipient Name],
+
+Just wanted to check in and see if you had a chance to review my earlier email.
+
+Thanks again for your time.
+
+Best,
+[Sender Name]
+
+----------------------------------------
+TYPE: Follow-Up
+TONE: Professional
+STYLE: Clarification Request
+
+Subject: Any Updates?
+
+Dear [Recipient Name],
+
+I wanted to follow up to see if there are any updates regarding [topic]. Please let me know if you require any additional information.
+
+Kind regards,
+[Sender Name]
+
+----------------------------------------
+TYPE: Follow-Up
+TONE: Polite
+STYLE: Deadline Reminder
+
+Subject: Gentle Reminder Regarding [Topic]
+
+Dear [Recipient Name],
+
+This is a gentle reminder regarding [topic]. Please let me know if there’s anything further needed from my side.
+
+Best regards,
+[Sender Name]
+
+----------------------------------------
+TYPE: Follow-Up
+TONE: Professional
+STYLE: Final Follow-Up
+
+Subject: Final Follow-Up
+
+Dear [Recipient Name],
+
+I wanted to make one final follow-up regarding my earlier message. I completely understand if now is not the right time.
+
+Thank you again for your time.
+
+Sincerely,
+[Sender Name]
+
+----------------------------------------
