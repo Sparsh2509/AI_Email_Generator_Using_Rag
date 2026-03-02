@@ -1,0 +1,160 @@
+TYPE: Internship Request
+TONE: Professional
+STYLE: General Application
+
+Subject: Application for Internship Opportunity
+
+Dear [Recipient Name],
+
+I am writing to express my interest in internship opportunities at [Company Name]. I have experience in [skills/projects] and am eager to contribute to your team.
+
+I would greatly appreciate an opportunity to discuss this further.
+
+Sincerely,
+[Sender Name]
+
+----------------------------------------
+TYPE: Internship Request
+TONE: Enthusiastic
+STYLE: Technical Internship
+
+Subject: AI Internship Application
+
+Dear [Recipient Name],
+
+With hands-on experience in AI projects and RAG systems, I am eager to apply for an internship at [Company Name]. I am passionate about building real-world solutions.
+
+I look forward to contributing to your team.
+
+Best regards,
+[Sender Name]
+
+----------------------------------------
+TYPE: Internship Request
+TONE: Professional
+STYLE: Research Internship
+
+Subject: Research Internship Inquiry
+
+Dear [Recipient Name],
+
+I am highly interested in research opportunities at [Company Name]. My academic background in [field] aligns closely with your current projects.
+
+I would be grateful for an opportunity to collaborate.
+
+Best,
+[Sender Name]
+
+----------------------------------------
+TYPE: Internship Request
+TONE: Concise
+STYLE: Short Application
+
+Subject: Internship Application
+
+Dear [Recipient Name],
+
+I am interested in applying for an internship at [Company Name]. My skills in [area] make me a strong candidate.
+
+Looking forward to your response.
+
+Best regards,
+[Sender Name]
+
+----------------------------------------
+TYPE: Internship Request
+TONE: Professional
+STYLE: Startup Internship
+
+Subject: Internship Opportunity at [Startup Name]
+
+Dear [Recipient Name],
+
+I admire the innovative work your startup is doing. I would love to contribute as an intern and gain hands-on experience.
+
+Thank you for considering my application.
+
+Sincerely,
+[Sender Name]
+
+----------------------------------------
+TYPE: Internship Request
+TONE: Professional
+STYLE: Remote Internship
+
+Subject: Inquiry About Remote Internship
+
+Dear [Recipient Name],
+
+I am interested in exploring remote internship opportunities at [Company Name]. I have strong experience in [skills].
+
+I would be grateful for the opportunity to contribute remotely.
+
+Best regards,
+[Sender Name]
+
+----------------------------------------
+TYPE: Internship Request
+TONE: Confident
+STYLE: Portfolio-Based
+
+Subject: Internship Application with Portfolio
+
+Dear [Recipient Name],
+
+I am applying for an internship at [Company Name]. I have completed projects including [project highlights], which demonstrate my expertise.
+
+I would love to discuss how I can contribute.
+
+Best,
+[Sender Name]
+
+----------------------------------------
+TYPE: Internship Request
+TONE: Professional
+STYLE: Summer Internship
+
+Subject: Summer Internship Application
+
+Dear [Recipient Name],
+
+I am seeking a summer internship opportunity at [Company Name]. I have experience in [skills] and am eager to apply my knowledge in a real-world setting.
+
+Thank you for your time.
+
+Sincerely,
+[Sender Name]
+
+----------------------------------------
+TYPE: Internship Request
+TONE: Respectful
+STYLE: Referral-Based
+
+Subject: Internship Application (Referred by [Name])
+
+Dear [Recipient Name],
+
+I was referred by [Name] to reach out regarding internship opportunities at [Company Name]. I am very interested in contributing to your team.
+
+Looking forward to your response.
+
+Best regards,
+[Sender Name]
+
+----------------------------------------
+TYPE: Internship Request
+TONE: Enthusiastic
+STYLE: Learning-Focused
+
+Subject: Eager to Learn and Contribute
+
+Dear [Recipient Name],
+
+I am highly motivated to gain hands-on experience through an internship at [Company Name]. I am eager to learn and contribute meaningfully.
+
+Thank you for your consideration.
+
+Best,
+[Sender Name]
+
+----------------------------------------
