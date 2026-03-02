@@ -15,7 +15,7 @@ vectorstore = FAISS.load_local(
 
 retriever = vectorstore.as_retriever(search_kwargs={"k": 2})
 
-query = "Write an internship request email"
+query = "Write a professional remote internship request email for a startup."
 
 docs = retriever.invoke(query)
 
