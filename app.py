@@ -19,10 +19,7 @@ llm = ChatGoogleGenerativeAI(
     temperature=0.7,
     api_key=gemini_key
 )
-
-
-
-print("\n===== AI Email Copilot (RAG Powered) =====\n")
+print("AI Email Copilot (RAG Powered)\n")
 
 sender = input("Enter sender name: ")
 recipient = input("Enter recipient name: ")
@@ -42,17 +39,8 @@ while True:
 
 key_points = "\n".join(points)
 
-
-
-query = f"{purpose} {tone} email template"
+query = f"{purpose} {tone} {length} email example"
 context = retrieve_context(query)
-
-
-print("\n----- RETRIEVED CONTEXT FROM FAISS -----\n")
-print(context)
-print("\n-------------------------------------------\n")
-
-
 
 prompt = build_email_prompt(
     sender,
@@ -64,11 +52,10 @@ prompt = build_email_prompt(
     length,
     context
 )
-
-
-
 response = llm.invoke(prompt)
 
-print("\n===== GENERATED EMAIL =====\n")
+print("\n" + "="*50)
+print("FINAL GENERATED EMAIL")
+print("="*50 + "\n")
 print(response.content)
-print("\n================================\n")
+print("\n" + "="*50)
