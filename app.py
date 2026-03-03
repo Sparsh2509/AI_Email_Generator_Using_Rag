@@ -21,7 +21,7 @@ tone = "professional"
 key_points = "- Built RAG systems\n- Strong in Python\n- Passionate about AI"
 length = "medium"
 
-# 🔥 Important — Make smarter retrieval query
+
 query = f"{purpose} {tone} email"
 
 context = retrieve_context(query)
