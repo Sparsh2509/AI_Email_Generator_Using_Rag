@@ -5,10 +5,11 @@ from prompts.email_prompt import build_email_prompt
 from langchain_google_genai import ChatGoogleGenerativeAI
 
 load_dotenv()
-
+gemini_key = os.getenv("GEMINI_API_KEY")
 llm = ChatGoogleGenerativeAI(
     model="gemini-2.5-flash-lite",
-    temperature=0.7
+    temperature=0.7,
+    api_key=gemini_key
 )
 
 # Example input
