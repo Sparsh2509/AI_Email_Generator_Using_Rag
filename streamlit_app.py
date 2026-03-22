@@ -70,14 +70,14 @@ if submit_button:
         context = retrieve_context(query)
 
         prompt = build_email_prompt(
-            sender,
-            recipient,
-            company,
-            purpose,
-            tone,
-            key_points,
-            length,
-            context
+            sender_name=sender,
+            recipient_name=recipient,
+            company_name=company,
+            purpose=purpose,
+            tone=tone,
+            length=length,
+            key_points=key_points,
+            context=context
         )
 
         response = llm.invoke(prompt)
@@ -86,3 +86,4 @@ if submit_button:
 
     st.markdown("Generated Email")
     st.text_area("Output", response.content, height=400)
+    st.code(response.content, language="")
