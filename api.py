@@ -11,7 +11,10 @@ load_dotenv()
 app = FastAPI()
 
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
-model = genai.GenerativeModel("gemini-2.5-flash-lite")
+model = genai.GenerativeModel(
+    "gemini-2.5-flash-lite",
+    generation_config={"temperature": 0.7}  
+)
 
 class EmailRequest(BaseModel):
     sender_name: str
@@ -30,6 +33,7 @@ def root():
 def generate_email(request: EmailRequest):
     try:
         templates = retrieve_context(request.purpose)
+        key_points_str = "\n".join(f"- {point}" for point in request.key_points)
 
         prompt = build_email_prompt(
             sender_name=request.sender_name,
@@ -38,7 +42,7 @@ def generate_email(request: EmailRequest):
             purpose=request.purpose,
             tone=request.tone,
             length=request.length,
-            key_points=request.key_points,
+            key_points=key_points_str,
             context=templates
         )
 
@@ -49,7 +53,6 @@ def generate_email(request: EmailRequest):
             "data": {
                 "email": response.text
             },
-            "error": None
         }
 
     except Exception as e:

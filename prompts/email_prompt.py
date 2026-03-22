@@ -31,8 +31,7 @@ Key Points:
 Length: {length}
 
 Output format:
-Subject: <subject line>
-
+Subject: <brief and professional subject line related to {purpose}, do NOT include sender name>
 Dear {recipient_name},
 
 <email body>
