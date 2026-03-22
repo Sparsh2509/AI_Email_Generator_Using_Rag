@@ -86,4 +86,4 @@ if submit_button:
 
     st.markdown("Generated Email")
     st.text_area("Output", response.content, height=400)
-    st.code(response.content, language="")
+    
