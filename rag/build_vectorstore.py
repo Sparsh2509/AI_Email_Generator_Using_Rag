@@ -2,7 +2,10 @@ import os
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.document_loaders import DirectoryLoader, TextLoader
 from langchain_community.vectorstores import FAISS
-from langchain_huggingface import HuggingFaceEmbeddings
+from langchain_huggingface import HuggingFaceEndpointEmbeddings
+from dotenv import load_dotenv
+
+load_dotenv()
 
 
 def build_vectorstore():
@@ -31,8 +34,10 @@ def build_vectorstore():
     split_docs = splitter.split_documents(docs)
 
     
-    embeddings = HuggingFaceEmbeddings(
-        model_name="all-MiniLM-L6-v2"
+    # Use the free API endpoint instead of local models to save massive RAM
+    embeddings = HuggingFaceEndpointEmbeddings(
+        model="sentence-transformers/all-MiniLM-L6-v2",
+        huggingfacehub_api_token=os.getenv("HF_TOKEN")
     )
 
     

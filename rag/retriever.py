@@ -1,8 +1,15 @@
 from langchain_community.vectorstores import FAISS
-from langchain_huggingface import HuggingFaceEmbeddings
+from langchain_huggingface import HuggingFaceEndpointEmbeddings
+import os
 
-embeddings = HuggingFaceEmbeddings(
-    model_name="sentence-transformers/all-MiniLM-L6-v2"
+from dotenv import load_dotenv
+load_dotenv()
+
+# Use Hugging Face's Free API instead of local PyTorch to save ~500MB of RAM!
+# This uses the exact same model but relies on the cloud endpoint.
+embeddings = HuggingFaceEndpointEmbeddings(
+    model="sentence-transformers/all-MiniLM-L6-v2",
+    huggingfacehub_api_token=os.getenv("HF_TOKEN")
 )
 
 vectorstore = FAISS.load_local(
