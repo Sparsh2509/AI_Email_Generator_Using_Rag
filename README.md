@@ -1,7 +1,7 @@
 # 📧 AI Email Copilot using RAG
 
 An AI-powered Email Generator built using **Retrieval-Augmented Generation (RAG)**.  
-This system generates context-aware professional emails using semantic search over email templates.
+By combining semantic template retrieval via Hugging Face embeddings with the reasoning power of Google Gemini, this system crafts highly personalized, context-aware professional emails tailored to any specific scenario, role, or tone.
 
 Live UI Demo: [https://aiemailgeneratorusingrag-lfcvucjigqzpjmza3ruhhg.streamlit.app/](https://aiemailgeneratorusingrag-lfcvucjigqzpjmza3ruhhg.streamlit.app/) 
 
