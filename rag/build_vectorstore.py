@@ -19,6 +19,9 @@ def build_vectorstore():
 
     docs = loader.load()
     print(f"Loaded {len(docs)} documents")
+    print(docs[0])
+    print(docs[0].page_content)
+    print(docs[0].metadata)
 
     
     for doc in docs:
